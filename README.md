@@ -48,7 +48,7 @@ Fast Mode allows for a faster and more script-friendly interface where you use r
 * ```10```: The disable command. Use the first data bit (least significant) to specify the FUNCTION and the second bit to specify whether to disable it. Similar to the d command. It should return a 0 byte.
 * ```11```: Fast Mode command. If the first data bit is set, it will exit fast mode. If it is not set, it will return the magic number (10) validating it is in fast mode. This is mostly for scripts to ensure it is in fast mode.
 
-You can find an example of a script interfacing with the RAM in this [code](./Test%20Scripts/mem_tester.py)
+You can find an example of a script interfacing with the RAM in this [code](./Code/serial_interface.py)
 
 ## Test Mode
 Test mode will continually generate a random array of bytes to write and read from memory to ensure it is working. This mode helps calibrate the delays as well as gives you useful statistics such as error rate and bandwidth. It can be run in both regular and fast mode but I would suggest tuning everything and getting a low error rate in regular mode first. Also note, that to exit test mode, you need to restart the microcontroller.
