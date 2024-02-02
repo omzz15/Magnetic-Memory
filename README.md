@@ -6,13 +6,13 @@ Magnetic-core memory was an early form of non-volatile random access memory (RAM
 
 # Schematics and PCBs
 
-I used EasyEDA to design the schematics and PCBs so the .json files located in the [CAD](./CAD/) folder can be imported into EasyEDA if you want to edit them. If you just want to order the PCB, you can find the files in the [order](./CAD/order/) folder. I used JLCPCB so the BOM and Pick and Place files may not work with other services but you should be able to get a bare PCB from most places with the Gerber zip.
+I used EasyEDA to design the schematics and PCBs so the .json files located in the [CAD](./CAD/) folder can be imported into EasyEDA if you want to edit them. If you just want to order the PCB, you can find the files in the [order](./CAD/EasyEDA/Logic/order/) folder. I used JLCPCB so the BOM and Pick and Place files may not work with other services but you should be able to get a bare PCB from most places with the Gerber zip.
 
 # Code
 
-Because I only have the logic board right now, I coded an emulator to run on an MSP430F5529 LaunchPad to fill in for the rest of the memory. If you would like to do the same, the code is in the [Memory Emulator](./Memory%20Emulator/) folder as a Platformio project. You can compile it for different boards by editing the [platformio.ini](/Memory%20Emulator/platformio.ini) file but make sure to update the pin definitions at the top of [main.cpp](/Memory%20Emulator/src/main.cpp).
+Because I only have the logic board right now, I coded an emulator to run on an MSP430F5529 LaunchPad to fill in for the rest of the memory. If you would like to do the same, the code is in the [Memory Emulator](./Code/Memory%20Emulator/) folder as a Platformio project. You can compile it for different boards by editing the [platformio.ini](/Code/Memory%20Emulator/platformio.ini) file but make sure to update the pin definitions at the top of [main.cpp](/Code/Memory%20Emulator/src/main.cpp).
 
-I also included emulator code that interfaces with the memory and provides a serial interface that can be controlled through [code](./Test%20Scripts/mem_tester.py) or by a terminal. The code is in the [Computer Emulator](./Computer%20Emulator/) folder and can be compiled and uploaded using Platformio as well. 
+I also included emulator code that interfaces with the memory and provides a serial interface that can be controlled through [code](./Code/serial_interface.py) or by a terminal. The code is in the [Computer Emulator](./Code/Computer%20Emulator/) folder and can be compiled and uploaded using Platformio as well. 
 
 The delays in both projects are calibrated for using an Arduino Uno with a LaunchPad. If the boards you are using are faster or slower than mine, you may need to edit some delays. The delays you need to edit will have comments next to them that end with OK. Both emulators also have a fast and regular mode with different delays. The regular mode is more verbose so if you need help getting your memory working, I would recommend tuning in regular mode first.
 
@@ -46,7 +46,7 @@ Fast Mode allows for a faster and more script-friendly interface where you use r
 * ```00```: The read command. Put the target MAD in the 6 data bits. (this format will only work for 64 bytes and less) It will return a byte with the data at the MAD
 * ```01```: The write command. Put the target MAD in the 6 data bits and send another byte with the data you want written. It should return a 0 byte indicating it is finished.
 * ```10```: The disable command. Use the first data bit (least significant) to specify the FUNCTION and the second bit to specify whether to disable it. Similar to the d command. It should return a 0 byte.
-*```11```: Fast Mode command. If the first data bit is set, it will exit fast mode. If it is not set, it will return the magic number (10) validating it is in fast mode. This is mostly for scripts to ensure it is in fast mode.
+* ```11```: Fast Mode command. If the first data bit is set, it will exit fast mode. If it is not set, it will return the magic number (10) validating it is in fast mode. This is mostly for scripts to ensure it is in fast mode.
 
 You can find an example of a script interfacing with the RAM in this [code](./Test%20Scripts/mem_tester.py)
 
