@@ -8,7 +8,7 @@ private:
 
     uint8_t target;
     uint8_t current;
-    u_long lastUpdate;
+    unsigned long lastUpdate;
 
 public:
     static uint8_t minDelay; // The minimum delay between updates in microseconds (so that it can generare 1 PWM cycle before updating again)
@@ -24,7 +24,7 @@ public:
         if(this->isDone())
             return;
 
-        u_long current = micros();
+        unsigned long current = micros();
         if(lastUpdate + minDelay > current)
             delayMicroseconds(lastUpdate + minDelay - current);
         lastUpdate = current;

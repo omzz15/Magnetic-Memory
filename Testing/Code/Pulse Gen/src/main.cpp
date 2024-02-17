@@ -1,5 +1,5 @@
 #include <Arduino.h>
-#include <SmoothChangePin.cpp>
+// #include <SmoothChangePin.cpp>
 
 // Pin definitions
 #define PULSE_PIN 2
