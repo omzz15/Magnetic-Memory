@@ -206,7 +206,7 @@ static void onWriteRequest(uint8_t pin, bool state)
 static void onFastModeChange(uint8_t pin, bool state)
 {
   if(fastModeEnabled)
-    Serial.begin(115200);
+    Serial.begin(BAUD_RATE);
 
   fastModeEnabled = !fastModeEnabled;
   Serial.print("[i] Fast mode");
