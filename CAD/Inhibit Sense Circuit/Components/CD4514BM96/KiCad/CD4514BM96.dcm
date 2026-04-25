@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP CD4514BM96
+D CMOS 4-Bit Latch/4-to-16 Line Decoder with Output 'High' on Select
+K
+F http://www.ti.com/lit/gpn/CD4514B
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,10 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "74AHC123AD,118")(type "KiCad")(uri "${KIPRJMOD}/Components/74AHC123AD,118/KiCad")(options "")(descr ""))
+  (lib (name "CD4514BM96")(type "KiCad")(uri "${KIPRJMOD}/Components/CD4514BM96/KiCad")(options "")(descr ""))
+  (lib (name "HEF4043BT,653")(type "KiCad")(uri "${KIPRJMOD}/Components/HEF4043BT,653/KiCad")(options "")(descr ""))
+  (lib (name "SN74AHC240PWR")(type "KiCad")(uri "${KIPRJMOD}/Components/SN74AHC240PWR/KiCad")(options "")(descr ""))
+  (lib (name "74HC4514PW,118")(type "KiCad")(uri "${KIPRJMOD}/Components/74HC4514PW,118/KiCad")(options "")(descr ""))
+  (lib (name "Custom_Library")(type "KiCad")(uri "${KIPRJMOD}/Components/Custom_Library.pretty")(options "")(descr ""))
+  (lib (name "DMC2710UDW-7")(type "KiCad")(uri "${KIPRJMOD}/Components/DMC2710UDW-7/KiCad")(options "")(descr ""))
+)

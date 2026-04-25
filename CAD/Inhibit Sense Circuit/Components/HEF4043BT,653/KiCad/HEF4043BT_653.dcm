@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP HEF4043BT,653
+D HEF4043B - Quad R/S latch with 3-state outputs@en-us
+K
+F https://assets.nexperia.com/documents/data-sheet/HEF4043B.pdf
+$ENDCMP
+#
+#End Doc Library

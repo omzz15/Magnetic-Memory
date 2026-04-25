@@ -1,0 +1,29 @@
+## Resistors(0603)
+1. 10k: 32
+2. 5.1k: 2
+3. 1k: 2
+4. 240: 43
+5. 11: 16
+6. 1K5: 24
+7. 1K2: 16
+8. 1K8: 16
+
+9. 10: 32
+
+## Capacitors(0603)
+1. 220p: 2
+2. 1000p: 2
+3. 1u: 17
+4. 10u: 40
+
+## Other
+1. 74HC4514PW,118(demux): 2
+2. 74AHC123AD,118(multivibrator): 2
+3. SN74LVC1G08DBVR-EV(AND): 1
+4. MC74VHC1G32DFT1G-L22038(OR): 1
+5. GSFC0201 (N-CH MOS)(SOT-23): 48
+6. DMC2710UDW-7(MOSFET N/P-CH)(SOT-363): 64
+7. SN74HCS32PWR(OR 4ch): 2
+8. SN74AHC240PWR(8-Bit inverter): 1
+9. HEF4043BT,653(SR latch 4ch): 2
+10. LM393A-SR (Comparator)(8-SOIC 3.9mm): 8
