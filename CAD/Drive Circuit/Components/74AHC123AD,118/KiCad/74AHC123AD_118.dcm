@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 74AHC123AD,118
+D Monostable Multivibrator DUAL RETGIG MONOSTBL
+K
+F https://assets.nexperia.com/documents/data-sheet/74AHC_AHCT123A.pdf
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SN74AHC240PWR
+D Texas Instruments SN74AHC240PWR Octal Buffer & Line Driver, 3-State, Inverting, 2  5.5 V, 20-Pin TSSOP
+K
+F http://www.ti.com/lit/gpn/sn74ahc240
+$ENDCMP
+#
+#End Doc Library

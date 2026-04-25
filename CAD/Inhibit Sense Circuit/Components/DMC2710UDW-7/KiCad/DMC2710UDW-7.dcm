@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP DMC2710UDW-7
+D MOSFET MOSFET BVDSS: 8V 24V SOT363 T&R 3K
+K
+F https://www.diodes.com//assets/Datasheets/DMC2710UDW.pdf
+$ENDCMP
+#
+#End Doc Library

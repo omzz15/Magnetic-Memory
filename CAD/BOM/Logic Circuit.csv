@@ -1,0 +1,16 @@
+"Id";"Designator";"Footprint";"Quantity";"Designation";"Supplier and ref";
+1;"R24,R37,R14,R2,R34,R25,R41,R3,R40,R32,R16,R8,R35,R1,R26,R38,R18,R30,R15,R36,R29,R4,R28,R33,R17,R22,R31,R27,R21,R23,R11,R6";"R_0603_1608Metric_Pad0.98x0.95mm_HandSolder";32;"10k";;;
+2;"C4,C3";"C_0603_1608Metric_Pad1.08x0.95mm_HandSolder";2;"220p";;;
+3;"C2,C1";"C_0603_1608Metric_Pad1.08x0.95mm_HandSolder";2;"1000p";;;
+4;"IC3,IC1";"SOP65P640X110-24N";2;"74HC4514PW,118";;;
+5;"R42,R43";"R_0603_1608Metric_Pad0.98x0.95mm_HandSolder";2;"5.1k";;;
+6;"IS_OUT1,IN1";"PinHeader_1x13_P2.54mm_Vertical";2;"Conn_01x13";;;
+7;"RV1,RV3,RV2";"Potentiometer_Bourns_3296W_Vertical";3;"R_Potentiometer";;;
+8;"IC5,IC4";"SOIC127P600X175-16N";2;"74AHC123AD,118";;;
+9;"Y1,X2,Y2,X1";"PinHeader_1x08_P2.54mm_Vertical";4;"Conn_01x08";;;
+10;"C7,C8,C9,C6";"C_0603_1608Metric_Pad1.08x0.95mm_HandSolder";4;"1u";;;
+11;"D_DAT1";"PinSocket_1x02_P2.54mm_Vertical";1;"Conn_01x02";;;
+12;"PULSE_DBG1";"PinSocket_1x06_P2.54mm_Vertical";1;"Conn_01x06";;;
+13;"R39,R44";"R_0603_1608Metric_Pad0.98x0.95mm_HandSolder";2;"1k";;;
+14;"U2";"SOT-23-5_HandSoldering";1;"SN74LVC1G08DBVR-EV";;;
+15;"U1";"SOT-353_SC-70-5_Handsoldering";1;"MC74VHC1G32DFT1G-L22038";;;

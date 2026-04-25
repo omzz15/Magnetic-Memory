@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 74HC4514PW,118
+D 74HC(T)4514 - 4-to-16 line decoder/demultiplexer with input latches@en-us
+K
+F https://assets.nexperia.com/documents/data-sheet/74HC_HCT4514.pdf
+$ENDCMP
+#
+#End Doc Library
